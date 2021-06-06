@@ -10,7 +10,7 @@ Projeto de desenvolvimento de uma API de gerenciamento de imoveis como requisito
 - SQLite3
 - TypeORM
 
-Para instalar as dependências execute (apenas um, dependo da preferencia pelo gerenciador de pacote):
+Para instalar as dependências execute (apenas um, depende da preferencia pelo gerenciador de pacote):
 ```npm
 npm install
 ```
