@@ -5,7 +5,3 @@ import { User } from '../../models/User'
 class UsersRepository extends Repository<User>{ }
 
 export { UsersRepository }
-
-/* 
- crtl+c / ctrl+v para implementar o repositório imoveis
-*/
