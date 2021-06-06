@@ -1,10 +1,14 @@
-import { Request, Response, Router } from 'express'
+import { Router } from 'express'
+import userController from './controllers/userController'
 
 const router = Router()
 
-router.use('/', (req: Request, res: Response) => {
-    res.status(200)
-    res.send('Olár!')
-})
+router.post('/user/cadastro', userController.createUser)
+router.post('/user/login', userController.login)
 
 export default router
+
+/* 
+ Rotas ainda a definir
+ Imoveis CRUD
+*/
